@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Work 8 (task 2)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class="container__form" action="">
+      <h3 class="container__form-title">Данные получателя</h3>
+      <input class="container__form-input" type="name" name="userName" id="user-name" placeholder="Фамилия">
+      <input class="container__form-input" type="name" name="userName" id="user-name" placeholder="Имя">
+      <input class="container__form-input" type="name" name="userName" id="user-name" placeholder="Отчество">
+      <br>
+      <br>
+      <input class="container__form-input" type="tel" name="userPhone" id="user-phone" placeholder="Номер телефона">
+      <p class="container__form-subtitle">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</p>
+      <input class="container__form-input container__form-input_size" type="email" name="userEmail" id="user-email" placeholder="E-mail">
+      <p class="container__form-subtitle">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его
+        отслеживания</p>
+      <div class="container__form-checkbox">
+        <input type="checkbox" name="userSub" id="user-sub">
+        <label for="" class="form__description">Подписаться на рассылку новинок и акций</label>
+      </div>
+      <h3 class="container__form-title">Способ оплаты</h3>
+      <div class="container__form-radio">
+        <input type="radio" name="userWallet" id="user-wallet">
+        <label for="" class="form__description">Оплата при получении наличными или картой</label>
+      </div>
+      <div class="container__form-radio">
+        <input type="radio" name="userWallet" id="user-wallet">
+        <label for="" class="form__description">Оплата банковской картой онлайн</label>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
